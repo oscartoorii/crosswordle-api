@@ -3,6 +3,11 @@ import { wordList } from "./wordList.js";
 const ornts = ["VERTICAL", "HORIZONTAL"]
 const numberOfWords = 4;
 
+// To Do's:
+// - Modularise code
+// - Flexible number of words (within range)
+// - Words used in previous 5 crosswords don't get reused
+
 // For simplicity, the algorithm will stay very primitive and restricted.
 // A crossword must have:
 // 2x 5 letter words
