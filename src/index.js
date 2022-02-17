@@ -14,7 +14,10 @@ app.get('/', (req, res) => {
     const startDay = "2022-02-18";
     const daysSinceStart = moment.duration(moment(now,"YYYY-MM-DD").diff(moment(startDay,"YYYY-MM-DD"))).asDays()
     res.set('Access-Control-Allow-Origin', '*');
-    res.send(crosswordList[daysSinceStart])
+    res.send({
+        crosswordleNo: daysSinceStart+1,
+        data: crosswordList[daysSinceStart],
+    })
 
   })
 
