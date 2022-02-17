@@ -10,6 +10,7 @@ _(Developed purely for learning purposes)_
 
 - Basic crossword generation algorithm
 - Daily crossword response
+- Generate multiple crosswords all with unique words
 
 ### Future Features
 

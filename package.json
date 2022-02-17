@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/oscartoorii/crosswordle-api#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34"
   }
 }

@@ -1,4 +1,3 @@
-import { wordList } from "./wordList.js";
 
 const ornts = ["VERTICAL", "HORIZONTAL"]
 const numberOfWords = 4;
@@ -6,7 +5,6 @@ const numberOfWords = 4;
 // To Do's:
 // - Modularise code
 // - Flexible number of words (within range)
-// - Words used in previous 5 crosswords don't get reused
 
 // For simplicity, the algorithm will stay very primitive and restricted.
 // A crossword must have:
@@ -14,7 +12,7 @@ const numberOfWords = 4;
 // 2x 6 letter words
 // Orientation is determined as a back-and-forth system during generation, 
 // but the word generated initially will have a random orientation
-export const generateCrossword = () => {
+export const generateCrossword = (wordList) => {
     
     // Initialise game data array
     let gameOutput = Array(numberOfWords).fill(0);
@@ -39,7 +37,6 @@ export const generateCrossword = () => {
         orientation: orntSix1,
         ID: null,
     }
-    console.log(gameGrid)
     // Randomly get another 6 letter word if there is a common letter, and for all common letters, try to place it on the board
     const orntSix2 = flipOrientation(orntSix1)
     const possiblePosSix2 = getPossibleStartPos(6, orntSix2)
@@ -67,7 +64,6 @@ export const generateCrossword = () => {
         orientation: orntSix2,
         ID: null,
     }
-    console.log(gameGrid)
     // Randomly get a 5 letter word and if there is a common letter, and for all common letters, try to place it on the board
     const orntFive1 = flipOrientation(orntSix2)
     const possiblePosFive1 = getPossibleStartPos(5, orntFive1)
@@ -92,7 +88,6 @@ export const generateCrossword = () => {
         orientation: orntFive1,
         ID: null,
     }
-    console.log(gameGrid)
     // Randomly get a 5 letter word and if there is a common letter, and for all common letters, try to place it on the board
     const orntFive2 = flipOrientation(orntFive1)
     const possiblePosFive2 = getPossibleStartPos(5, orntFive2)
@@ -120,7 +115,6 @@ export const generateCrossword = () => {
         orientation: orntFive2,
         ID: null,
     }
-    console.log(gameGrid)
     // Output final crossword
     let ID = 0;
     gameOutput.map(e => {
@@ -130,6 +124,7 @@ export const generateCrossword = () => {
             gameOutput.map(e2 => JSON.stringify(e2.startPos)===JSON.stringify(e.startPos) ? e2.ID=ID : "")
         }
     })
+    console.log(gameGrid)
     return gameOutput;
 }
 
