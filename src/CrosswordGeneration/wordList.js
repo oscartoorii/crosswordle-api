@@ -77,7 +77,6 @@ export const wordList = {
         "built",
         "buyer",
         "cable",
-        "calif",
         "carry",
         "catch",
         "cause",

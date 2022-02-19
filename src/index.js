@@ -6,12 +6,12 @@ import express from 'express'
 
 export const app = express()
 
-const MAX_CROSSWORDS_GEN = 30;
+const MAX_CROSSWORDS_GEN = 5;
 
 app.get('/', (req, res) => {
     
     const now = moment().tz("Australia/Melbourne").format("YYYY-MM-DD")
-    const startDay = "2022-02-18";
+    const startDay = "2022-02-20";
     const daysSinceStart = moment.duration(moment(now,"YYYY-MM-DD").diff(moment(startDay,"YYYY-MM-DD"))).asDays()
     res.set('Access-Control-Allow-Origin', '*');
     res.send({

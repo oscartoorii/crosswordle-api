@@ -177,19 +177,65 @@ const tryPlacing = (gameGrid, possiblePos, ornt, randomWord) => {
     const randomWordSpl = randomWord.split("");
     for (let wordPos = 0; wordPos < randomWordSpl.length; wordPos++) {
         if (ornt===ornts[1]) {
-            if (newGameGrid[possiblePos[1]][possiblePos[0]+wordPos]===".") {
-                newGameGrid[possiblePos[1]][possiblePos[0]+wordPos] = randomWordSpl[wordPos];
-            } else if (newGameGrid[possiblePos[1]][possiblePos[0]+wordPos]!==randomWordSpl[wordPos]) {
-                return false;
+            if (newGameGrid[possiblePos[1]][possiblePos[0]+wordPos]===".") { // If current pos is empty
+                if (getSurroundingPos(possiblePos[0]+wordPos, possiblePos[1], ornt, wordPos, randomWordSpl.length).some(surrPos => newGameGrid[surrPos[1]][surrPos[0]]!==".")) {
+                    return false;
+                } else {
+                    newGameGrid[possiblePos[1]][possiblePos[0]+wordPos] = randomWordSpl[wordPos];
+                }
+            } else { // If current pos is a letter
+                if (newGameGrid[possiblePos[1]][possiblePos[0]+wordPos]!==randomWordSpl[wordPos]) {
+                    return false;
+                }
             }
         } else if (ornt===ornts[0]) {
-            if (newGameGrid[possiblePos[1]+wordPos][possiblePos[0]]===".") {
-                newGameGrid[possiblePos[1]+wordPos][possiblePos[0]] = randomWordSpl[wordPos];
-            } else if (newGameGrid[possiblePos[1]+wordPos][possiblePos[0]]!==randomWordSpl[wordPos]) {
-                return false;
+            if (newGameGrid[possiblePos[1]+wordPos][possiblePos[0]]===".") { // If current pos is empty
+                if (getSurroundingPos(possiblePos[0], possiblePos[1]+wordPos, ornt, wordPos, randomWordSpl.length).some(surrPos => newGameGrid[surrPos[1]][surrPos[0]]!==".")) {
+                    return false;
+                } else {
+                    newGameGrid[possiblePos[1]+wordPos][possiblePos[0]] = randomWordSpl[wordPos];
+                }
+            } else { // If current pos is a letter
+                if (newGameGrid[possiblePos[1]+wordPos][possiblePos[0]]!==randomWordSpl[wordPos]) {
+                    return false;
+                }
             }
         }
     }
     return newGameGrid;
+}
+
+// Takes a position and orientation and returns any position within the game boundary out of previous-pos, next-pos, side1, and side2.
+const getSurroundingPos = (x, y, ornt, wordPos, wordLength) => {
+
+    let surroundingPos = []
+    if (ornt===ornts[0]) { // Vertical
+        if (wordPos===0 && y-1 >= 0) { // Previous-pos (Top)
+            surroundingPos.push([x, y-1])
+        }
+        if (wordPos===wordLength-1 && y+1 < 6) { // Next-pos (Bottom)
+            surroundingPos.push([x, y+1])
+        }
+        if (x-1 >= 0) { // Side1 (Left)
+            surroundingPos.push([x-1, y])
+        }
+        if (x+1 < 6) { // Side2 (Right)
+            surroundingPos.push([x+1, y])
+        }
+    } else if (ornt===ornts[1]) { // Horizontal
+        if (wordPos===0 && x-1 >= 0) { // Previous-pos (Left)
+            surroundingPos.push([x-1, y])
+        }
+        if (wordPos===wordLength-1 && x+1 < 6) { // Next-pos (Right)
+            surroundingPos.push([x+1, y])
+        }
+        if (y-1 >= 0) { // Side1 (Top)
+            surroundingPos.push([x, y-1])
+        }
+        if (y+1 < 6) { // Side2 (Bottom)
+            surroundingPos.push([x, y+1])
+        }
+    }
+    return surroundingPos;
 
 }
