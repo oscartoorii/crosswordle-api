@@ -2,39 +2,77 @@ export const crosswordList = [
     [
         {
         "startPos": [
-        0,
+        5,
         0
         ],
-        "word": "SLIGHT",
+        "word": "MERELY",
         "orientation": "VERTICAL",
         "ID": 1
         },
         {
         "startPos": [
-        0,
-        0
+        1,
+        1
         ],
-        "word": "SECURE",
+        "word": "GRACE",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        3,
+        1
+        ],
+        "word": "ALIKE",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        3
+        ],
+        "word": "RAISE",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "STRUCK",
         "orientation": "HORIZONTAL",
         "ID": 1
         },
         {
         "startPos": [
-        4,
+        2,
         0
         ],
-        "word": "RIVER",
+        "word": "GRADE",
         "orientation": "VERTICAL",
         "ID": 2
         },
         {
         "startPos": [
         0,
-        3
+        4
         ],
-        "word": "GRACE",
+        "word": "ALERT",
         "orientation": "HORIZONTAL",
         "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "SPEAK",
+        "orientation": "VERTICAL",
+        "ID": 1
         }
         ],
         [
@@ -43,34 +81,34 @@ export const crosswordList = [
         3,
         0
         ],
-        "word": "RECENT",
+        "word": "DEFEND",
         "orientation": "VERTICAL",
         "ID": 1
         },
         {
         "startPos": [
-        0,
-        5
+        1,
+        1
         ],
-        "word": "SECTOR",
+        "word": "SPEED",
         "orientation": "HORIZONTAL",
         "ID": 2
         },
         {
         "startPos": [
-        0,
+        5,
         1
         ],
-        "word": "FOCUS",
+        "word": "DRIVE",
         "orientation": "VERTICAL",
         "ID": 3
         },
         {
         "startPos": [
         1,
-        0
+        5
         ],
-        "word": "ERROR",
+        "word": "UNDUE",
         "orientation": "HORIZONTAL",
         "ID": 4
         }
@@ -81,34 +119,604 @@ export const crosswordList = [
         0,
         0
         ],
-        "word": "EXCESS",
-        "orientation": "VERTICAL",
+        "word": "DOMAIN",
+        "orientation": "HORIZONTAL",
         "ID": 1
+        },
+        {
+        "startPos": [
+        2,
+        0
+        ],
+        "word": "MINUS",
+        "orientation": "VERTICAL",
+        "ID": 2
         },
         {
         "startPos": [
         0,
         3
         ],
-        "word": "ESCAPE",
+        "word": "TRUTH",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        0
+        ],
+        "word": "DEPTH",
+        "orientation": "VERTICAL",
+        "ID": 1
+        }
+        ],
+        [
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "DURING",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        2
+        ],
+        "word": "PETER",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "PIECE",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        4
+        ],
+        "word": "EVENT",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+    ],
+    [
+        {
+        "startPos": [
+        0,
+        2
+        ],
+        "word": "NATURE",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "UNTIL",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "DOING",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "NURSE",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "GENDER",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        4
+        ],
+        "word": "EVERY",
         "orientation": "HORIZONTAL",
         "ID": 2
         },
         {
         "startPos": [
         3,
-        1
+        0
         ],
-        "word": "STAND",
+        "word": "SCORE",
         "orientation": "VERTICAL",
         "ID": 3
         },
         {
         "startPos": [
         0,
+        1
+        ],
+        "word": "HENCE",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "READER",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "SUPER",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "STORE",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
         5
         ],
-        "word": "STUDY",
+        "word": "NEVER",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        }
+        ],
+        [
+        {
+        "startPos": [
+        2,
+        0
+        ],
+        "word": "ENSURE",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        2
+        ],
+        "word": "WASTE",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "TREND",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        0
+        ],
+        "word": "SWEET",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        3
+        ],
+        "word": "PHRASE",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        5,
+        0
+        ],
+        "word": "WATER",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        5
+        ],
+        "word": "SPOKE",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        3,
+        1
+        ],
+        "word": "THANK",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "INTENT",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        4
+        ],
+        "word": "BRAND",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        2,
+        1
+        ],
+        "word": "HEART",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        2
+        ],
+        "word": "AGENT",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+    ],
+    [
+        {
+        "startPos": [
+        0,
+        3
+        ],
+        "word": "CHURCH",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "CATCH",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "PLACE",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "ULCER",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "STRESS",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        3,
+        0
+        ],
+        "word": "METAL",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        3
+        ],
+        "word": "CRASH",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "STOCK",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        4
+        ],
+        "word": "MARKED",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "FORCE",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        2
+        ],
+        "word": "MINOR",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "RIVAL",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "DEFINE",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        2
+        ],
+        "word": "CRAFT",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        2,
+        0
+        ],
+        "word": "FIRST",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        4
+        ],
+        "word": "OFTEN",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        5
+        ],
+        "word": "LAWYER",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        3,
+        1
+        ],
+        "word": "ARRAY",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "TEXAS",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "EXTRA",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        3
+        ],
+        "word": "MARGIN",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "CIVIL",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "TEACH",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "HUMAN",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+    ],
+    [
+        {
+        "startPos": [
+        0,
+        4
+        ],
+        "word": "UNIQUE",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "FUNNY",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "FIFTH",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        5,
+        0
+        ],
+        "word": "THREE",
+        "orientation": "VERTICAL",
+        "ID": 3
+        }
+        ],
+        [
+        {
+        "startPos": [
+        3,
+        0
+        ],
+        "word": "STOLEN",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        2
+        ],
+        "word": "ENJOY",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        0
+        ],
+        "word": "WHEEL",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        5
+        ],
+        "word": "DANCE",
         "orientation": "HORIZONTAL",
         "ID": 4
         }
@@ -119,16 +727,16 @@ export const crosswordList = [
         0,
         2
         ],
-        "word": "DOUBLE",
+        "word": "MAKING",
         "orientation": "HORIZONTAL",
         "ID": 1
         },
         {
         "startPos": [
         1,
-        0
+        1
         ],
-        "word": "SMOOTH",
+        "word": "WATCH",
         "orientation": "VERTICAL",
         "ID": 2
         },
@@ -137,7 +745,45 @@ export const crosswordList = [
         1,
         4
         ],
-        "word": "TRAIN",
+        "word": "CYCLE",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        4,
+        1
+        ],
+        "word": "ANGLE",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+    ],
+    [
+        {
+        "startPos": [
+        0,
+        4
+        ],
+        "word": "FACING",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        3,
+        1
+        ],
+        "word": "MUSIC",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        2
+        ],
+        "word": "FRUIT",
         "orientation": "HORIZONTAL",
         "ID": 3
         },
@@ -146,8 +792,160 @@ export const crosswordList = [
         5,
         1
         ],
-        "word": "MEANT",
+        "word": "STAGE",
         "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        2
+        ],
+        "word": "SECTOR",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        5,
+        1
+        ],
+        "word": "TRACK",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        0
+        ],
+        "word": "SIXTY",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        3,
+        0
+        ],
+        "word": "TITLE",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        0
+        ],
+        "word": "CANNOT",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "ASSET",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        2
+        ],
+        "word": "SHOOT",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        5,
+        0
+        ],
+        "word": "TOTAL",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "BARELY",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "SLEEP",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        3
+        ],
+        "word": "CRIME",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        2,
+        0
+        ],
+        "word": "TRAIN",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        3,
+        0
+        ],
+        "word": "CLOSED",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        4
+        ],
+        "word": "SPENT",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        5,
+        0
+        ],
+        "word": "CHEST",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        2
+        ],
+        "word": "WHOLE",
+        "orientation": "HORIZONTAL",
         "ID": 4
         }
         ],
@@ -157,16 +955,16 @@ export const crosswordList = [
         2,
         0
         ],
-        "word": "ISLAND",
+        "word": "LITTLE",
         "orientation": "VERTICAL",
         "ID": 1
         },
         {
         "startPos": [
         0,
-        4
+        1
         ],
-        "word": "TENNIS",
+        "word": "UNION",
         "orientation": "HORIZONTAL",
         "ID": 2
         },
@@ -175,55 +973,17 @@ export const crosswordList = [
         0,
         1
         ],
-        "word": "BIRTH",
+        "word": "UPPER",
         "orientation": "VERTICAL",
-        "ID": 3
+        "ID": 2
         },
-        {
-        "startPos": [
-        1,
-        0
-        ],
-        "word": "RIGHT",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-        ],
-        [
         {
         "startPos": [
         0,
-        2
+        3
         ],
-        "word": "SURELY",
+        "word": "PITCH",
         "orientation": "HORIZONTAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        1,
-        0
-        ],
-        "word": "SOUGHT",
-        "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        1,
-        0
-        ],
-        "word": "SUGAR",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        3,
-        0
-        ],
-        "word": "GREEN",
-        "orientation": "VERTICAL",
         "ID": 3
         }
         ],
@@ -233,17 +993,321 @@ export const crosswordList = [
         0,
         4
         ],
-        "word": "YELLOW",
+        "word": "FRENCH",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        2,
+        1
+        ],
+        "word": "SEVEN",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        2
+        ],
+        "word": "SENSE",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "BASIC",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+    ],
+    [
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "CUSTOM",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        5
+        ],
+        "word": "MOUNT",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        4,
+        1
+        ],
+        "word": "BEGIN",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        2
+        ],
+        "word": "SHEET",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "LESSON",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "FORTY",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        3
+        ],
+        "word": "FRONT",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        2,
+        1
+        ],
+        "word": "STONE",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "SECURE",
         "orientation": "HORIZONTAL",
         "ID": 1
         },
         {
         "startPos": [
         3,
+        1
+        ],
+        "word": "USAGE",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        5
+        ],
+        "word": "GIVEN",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        5,
         0
         ],
-        "word": "SETTLE",
+        "word": "NEWLY",
         "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        5,
+        0
+        ],
+        "word": "LAUNCH",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        3
+        ],
+        "word": "ROMAN",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        2,
+        1
+        ],
+        "word": "SCOPE",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        5
+        ],
+        "word": "BENCH",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "ITSELF",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        3
+        ],
+        "word": "DEATH",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "TIGHT",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        0
+        ],
+        "word": "MIGHT",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+    ],
+    [
+        {
+        "startPos": [
+        2,
+        0
+        ],
+        "word": "TARGET",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        0
+        ],
+        "word": "VITAL",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        5,
+        1
+        ],
+        "word": "UNITY",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        2
+        ],
+        "word": "DRAWN",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "LETTER",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        3
+        ],
+        "word": "TRIAL",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        5,
+        1
+        ],
+        "word": "SOLID",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        0
+        ],
+        "word": "FLASH",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "DEALER",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        4
+        ],
+        "word": "THOSE",
+        "orientation": "HORIZONTAL",
         "ID": 2
         },
         {
@@ -251,21 +1315,135 @@ export const crosswordList = [
         1,
         0
         ],
-        "word": "ISSUE",
+        "word": "TOUCH",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "HOUSE",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        3
+        ],
+        "word": "EXPORT",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        4,
+        1
+        ],
+        "word": "WORRY",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        5
+        ],
+        "word": "ENEMY",
         "orientation": "HORIZONTAL",
         "ID": 3
         },
         {
         "startPos": [
-        1,
-        0
+        0,
+        1
         ],
-        "word": "IMAGE",
+        "word": "THERE",
         "orientation": "VERTICAL",
-        "ID": 3
+        "ID": 4
         }
         ],
         [
+        {
+        "startPos": [
+        3,
+        0
+        ],
+        "word": "BOTTLE",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        5
+        ],
+        "word": "TREAT",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        0
+        ],
+        "word": "WHITE",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        3
+        ],
+        "word": "TASTE",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "FABRIC",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "FOUND",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        3
+        ],
+        "word": "USUAL",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "YIELD",
+        "orientation": "VERTICAL",
+        "ID": 3
+        }
+    ],
+    [
         {
         "startPos": [
         0,
@@ -277,817 +1455,19 @@ export const crosswordList = [
         },
         {
         "startPos": [
-        3,
-        0
-        ],
-        "word": "THANKS",
-        "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        1,
-        2
-        ],
-        "word": "FRAUD",
-        "orientation": "HORIZONTAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        3,
-        0
-        ],
-        "word": "THANK",
-        "orientation": "VERTICAL",
-        "ID": 2
-        }
-        ],
-        [
-        {
-        "startPos": [
-        0,
-        5
-        ],
-        "word": "ALWAYS",
-        "orientation": "HORIZONTAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        5,
-        0
-        ],
-        "word": "MORRIS",
-        "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        1,
-        0
-        ],
-        "word": "DREAM",
-        "orientation": "HORIZONTAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        1
-        ],
-        "word": "CHINA",
-        "orientation": "VERTICAL",
-        "ID": 4
-        }
-    ],
-    [
-        {
-        "startPos": [
-        0,
-        1
-        ],
-        "word": "WALKER",
-        "orientation": "HORIZONTAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
         4,
-        0
-        ],
-        "word": "GERMAN",
-        "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        1,
-        5
-        ],
-        "word": "STAND",
-        "orientation": "HORIZONTAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        2,
-        1
-        ],
-        "word": "LEAST",
-        "orientation": "VERTICAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        0,
-        2
-        ],
-        "word": "SCHOOL",
-        "orientation": "HORIZONTAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        4,
-        0
-        ],
-        "word": "GROUND",
-        "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        1,
-        0
-        ],
-        "word": "JUDGE",
-        "orientation": "HORIZONTAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        1
-        ],
-        "word": "USAGE",
-        "orientation": "VERTICAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        0,
-        0
-        ],
-        "word": "REGIME",
-        "orientation": "HORIZONTAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        1,
-        0
-        ],
-        "word": "ENTITY",
-        "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        1,
-        4
-        ],
-        "word": "TIMES",
-        "orientation": "HORIZONTAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        4,
-        0
-        ],
-        "word": "MOVIE",
-        "orientation": "VERTICAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        3,
-        0
-        ],
-        "word": "DEFINE",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        3
-        ],
-        "word": "DECIDE",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        1,
-        1
-        ],
-        "word": "THEIR",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        5
-        ],
-        "word": "ORDER",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        4,
-        0
-        ],
-        "word": "UNABLE",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        4
-        ],
-        "word": "SHOULD",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        2,
-        1
-        ],
-        "word": "STOOD",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        1,
-        2
-        ],
-        "word": "STEAM",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        0,
-        1
-        ],
-        "word": "BRIDGE",
-        "orientation": "HORIZONTAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        5,
-        0
-        ],
-        "word": "REASON",
-        "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        1,
-        5
-        ],
-        "word": "OCEAN",
-        "orientation": "HORIZONTAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        3,
-        1
-        ],
-        "word": "DROVE",
-        "orientation": "VERTICAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        0,
-        4
-        ],
-        "word": "INTENT",
-        "orientation": "HORIZONTAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        3,
-        0
-        ],
-        "word": "DRIVER",
-        "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        0,
-        1
-        ],
-        "word": "BOARD",
-        "orientation": "HORIZONTAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        3,
-        1
-        ],
-        "word": "RIVER",
-        "orientation": "VERTICAL",
-        "ID": 4
-        }
-    ],
-    [
-        {
-        "startPos": [
-        0,
-        0
-        ],
-        "word": "THROWN",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        2
-        ],
-        "word": "RELIEF",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        3,
-        1
-        ],
-        "word": "MIXED",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        5
-        ],
-        "word": "NEEDS",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        4,
-        0
-        ],
-        "word": "CHOSEN",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        4
-        ],
-        "word": "BURDEN",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        2,
-        0
-        ],
-        "word": "FLOOR",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        2
-        ],
-        "word": "PHOTO",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        2,
-        0
-        ],
-        "word": "PROVEN",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        5
-        ],
-        "word": "MENTAL",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        0,
-        1
-        ],
-        "word": "ALARM",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        1,
-        0
-        ],
-        "word": "APPLY",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        0,
-        5
-        ],
-        "word": "MINING",
-        "orientation": "HORIZONTAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        5,
-        0
-        ],
-        "word": "STRING",
-        "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        1,
-        2
-        ],
-        "word": "FIBER",
-        "orientation": "HORIZONTAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        2,
-        1
-        ],
-        "word": "GIVEN",
-        "orientation": "VERTICAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        4,
-        0
-        ],
-        "word": "SECOND",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        4
-        ],
-        "word": "RIDING",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        1,
-        1
-        ],
-        "word": "BEGIN",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        1,
-        1
-        ],
-        "word": "BRIEF",
-        "orientation": "HORIZONTAL",
-        "ID": 3
-        }
-        ],
-        [
-        {
-        "startPos": [
-        0,
-        2
-        ],
-        "word": "OBTAIN",
-        "orientation": "HORIZONTAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        3,
-        0
-        ],
-        "word": "ORANGE",
-        "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        0,
-        5
-        ],
-        "word": "SPEED",
-        "orientation": "HORIZONTAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        5,
-        0
-        ],
-        "word": "HENCE",
-        "orientation": "VERTICAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        3,
-        0
-        ],
-        "word": "BROKEN",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        1
-        ],
-        "word": "NEARLY",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        1,
-        0
-        ],
-        "word": "REACH",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        4
-        ],
-        "word": "THREE",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-    ],
-    [
-        {
-        "startPos": [
-        0,
-        0
-        ],
-        "word": "COFFEE",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        3
-        ],
-        "word": "FATHER",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        4,
-        1
-        ],
-        "word": "STEEL",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        5
-        ],
-        "word": "EQUAL",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        0,
-        1
-        ],
-        "word": "ENDING",
-        "orientation": "HORIZONTAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        3,
-        0
-        ],
-        "word": "VICTIM",
-        "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        0,
-        4
-        ],
-        "word": "RAPID",
-        "orientation": "HORIZONTAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        0
-        ],
-        "word": "PETER",
-        "orientation": "VERTICAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        0,
-        1
-        ],
-        "word": "INTEND",
-        "orientation": "HORIZONTAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        0
-        ],
-        "word": "SISTER",
-        "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        0,
-        3
-        ],
-        "word": "TRUCK",
-        "orientation": "HORIZONTAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        3,
-        0
-        ],
-        "word": "TEACH",
-        "orientation": "VERTICAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        1,
-        0
-        ],
-        "word": "ANYWAY",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        3
-        ],
-        "word": "TWELVE",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        5,
-        1
-        ],
-        "word": "BREAD",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
         0
         ],
         "word": "EAGER",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        4,
-        0
-        ],
-        "word": "NOBODY",
         "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        0
-        ],
-        "word": "BEYOND",
-        "orientation": "HORIZONTAL",
         "ID": 2
         },
         {
         "startPos": [
         1,
-        0
-        ],
-        "word": "ERROR",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        4
-        ],
-        "word": "BROAD",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        0,
         3
         ],
-        "word": "COPPER",
-        "orientation": "HORIZONTAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        4,
-        0
-        ],
-        "word": "EXTENT",
-        "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        0,
-        0
-        ],
-        "word": "CAUSE",
+        "word": "OTHER",
         "orientation": "HORIZONTAL",
         "ID": 3
         },
@@ -1104,323 +1484,19 @@ export const crosswordList = [
         [
         {
         "startPos": [
-        1,
-        0
-        ],
-        "word": "MARKET",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        1
-        ],
-        "word": "NATURE",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
         3,
         0
         ],
-        "word": "QUITE",
+        "word": "SILENT",
         "orientation": "VERTICAL",
-        "ID": 3
+        "ID": 1
         },
         {
         "startPos": [
         1,
-        4
-        ],
-        "word": "ENEMY",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-    ],
-    [
-        {
-        "startPos": [
-        0,
-        2
-        ],
-        "word": "THOUGH",
-        "orientation": "HORIZONTAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        3,
-        0
-        ],
-        "word": "SQUARE",
-        "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        1,
-        5
-        ],
-        "word": "DRESS",
-        "orientation": "HORIZONTAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        0
-        ],
-        "word": "METAL",
-        "orientation": "VERTICAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        4,
-        0
-        ],
-        "word": "FAIRLY",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        2
-        ],
-        "word": "CRISIS",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        2,
-        1
-        ],
-        "word": "VITAL",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        1,
-        4
-        ],
-        "word": "BADLY",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        0,
-        0
-        ],
-        "word": "DESERT",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        2
-        ],
-        "word": "STREET",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        2,
-        0
-        ],
-        "word": "ARRAY",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        4
-        ],
-        "word": "ROYAL",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        4,
-        0
-        ],
-        "word": "FELLOW",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        2
-        ],
-        "word": "ENABLE",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        2,
-        0
-        ],
-        "word": "GUARD",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        4
-        ],
-        "word": "RADIO",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        0,
-        1
-        ],
-        "word": "MOTION",
-        "orientation": "HORIZONTAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        3,
-        0
-        ],
-        "word": "TISSUE",
-        "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        0,
         3
         ],
-        "word": "TRUST",
-        "orientation": "HORIZONTAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        0
-        ],
-        "word": "SMITH",
-        "orientation": "VERTICAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        0,
-        3
-        ],
-        "word": "STABLE",
-        "orientation": "HORIZONTAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        5,
-        0
-        ],
-        "word": "SPREAD",
-        "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        1,
-        5
-        ],
-        "word": "BLIND",
-        "orientation": "HORIZONTAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        0
-        ],
-        "word": "CLOSE",
-        "orientation": "VERTICAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        0,
-        3
-        ],
-        "word": "LITTLE",
-        "orientation": "HORIZONTAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        5,
-        0
-        ],
-        "word": "SAFETY",
-        "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        1,
-        0
-        ],
-        "word": "TIMES",
-        "orientation": "HORIZONTAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        1
-        ],
-        "word": "VALID",
-        "orientation": "VERTICAL",
-        "ID": 4
-        }
-    ],
-    [
-        {
-        "startPos": [
-        2,
-        0
-        ],
-        "word": "JERSEY",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        2
-        ],
-        "word": "MARKET",
+        "word": "CHECK",
         "orientation": "HORIZONTAL",
         "ID": 2
         },
@@ -1429,54 +1505,16 @@ export const crosswordList = [
         5,
         0
         ],
-        "word": "RATIO",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        5
-        ],
-        "word": "STYLE",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        5,
-        0
-        ],
-        "word": "REPLAY",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        3
-        ],
-        "word": "MUTUAL",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        3,
-        1
-        ],
-        "word": "FAULT",
+        "word": "STAKE",
         "orientation": "VERTICAL",
         "ID": 3
         },
         {
         "startPos": [
         1,
-        5
+        0
         ],
-        "word": "ENTRY",
+        "word": "BASES",
         "orientation": "HORIZONTAL",
         "ID": 4
         }
@@ -1484,57 +1522,19 @@ export const crosswordList = [
         [
         {
         "startPos": [
-        3,
-        0
-        ],
-        "word": "ENGAGE",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
         0,
-        3
+        4
         ],
         "word": "SALARY",
         "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        1,
-        1
-        ],
-        "word": "CRASH",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        5
-        ],
-        "word": "CHIEF",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        0,
-        5
-        ],
-        "word": "THREAT",
-        "orientation": "HORIZONTAL",
         "ID": 1
         },
         {
         "startPos": [
-        5,
+        4,
         0
         ],
-        "word": "BRIGHT",
+        "word": "ENTER",
         "orientation": "VERTICAL",
         "ID": 2
         },
@@ -1543,7 +1543,7 @@ export const crosswordList = [
         1,
         1
         ],
-        "word": "TOWER",
+        "word": "ARENA",
         "orientation": "HORIZONTAL",
         "ID": 3
         },
@@ -1552,7 +1552,7 @@ export const crosswordList = [
         1,
         1
         ],
-        "word": "TRUTH",
+        "word": "AHEAD",
         "orientation": "VERTICAL",
         "ID": 3
         }
@@ -1561,155 +1561,41 @@ export const crosswordList = [
         {
         "startPos": [
         0,
-        4
+        3
         ],
-        "word": "GOLDEN",
+        "word": "RATHER",
         "orientation": "HORIZONTAL",
         "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "FORTH",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "MAKER",
+        "orientation": "HORIZONTAL",
+        "ID": 3
         },
         {
         "startPos": [
         2,
         0
         ],
-        "word": "COSTLY",
+        "word": "ACUTE",
         "orientation": "VERTICAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        1,
-        1
-        ],
-        "word": "ROUGH",
-        "orientation": "HORIZONTAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        5,
-        0
-        ],
-        "word": "SHOWN",
-        "orientation": "VERTICAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        3,
-        0
-        ],
-        "word": "MOTION",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        3
-        ],
-        "word": "LIVING",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        1,
-        0
-        ],
-        "word": "LIMIT",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        1
-        ],
-        "word": "MINOR",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-        ],
-        [
-        {
-        "startPos": [
-        3,
-        0
-        ],
-        "word": "SECTOR",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        5
-        ],
-        "word": "NEARLY",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        5,
-        1
-        ],
-        "word": "HEAVY",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        0
-        ],
-        "word": "WORSE",
-        "orientation": "HORIZONTAL",
         "ID": 4
         }
     ],
     [
-        {
-        "startPos": [
-        4,
-        0
-        ],
-        "word": "THROWN",
-        "orientation": "VERTICAL",
-        "ID": 1
-        },
-        {
-        "startPos": [
-        0,
-        5
-        ],
-        "word": "LUCENT",
-        "orientation": "HORIZONTAL",
-        "ID": 2
-        },
-        {
-        "startPos": [
-        0,
-        1
-        ],
-        "word": "DRILL",
-        "orientation": "VERTICAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        1,
-        0
-        ],
-        "word": "MOUTH",
-        "orientation": "HORIZONTAL",
-        "ID": 4
-        }
-        ],
-        [
         {
         "startPos": [
         0,
@@ -1721,28 +1607,484 @@ export const crosswordList = [
         },
         {
         "startPos": [
-        0,
+        1,
         0
         ],
-        "word": "MURDER",
+        "word": "TRIED",
         "orientation": "VERTICAL",
         "ID": 2
         },
         {
         "startPos": [
         0,
-        5
+        1
         ],
-        "word": "ROGER",
+        "word": "TRUST",
         "orientation": "HORIZONTAL",
         "ID": 3
+        },
+        {
+        "startPos": [
+        3,
+        1
+        ],
+        "word": "SPACE",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        5,
+        0
+        ],
+        "word": "MOMENT",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        4
+        ],
+        "word": "BROWN",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        2,
+        0
+        ],
+        "word": "LOWER",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "ALBUM",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        2,
+        0
+        ],
+        "word": "SECRET",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        3
+        ],
+        "word": "RURAL",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        0
+        ],
+        "word": "APART",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        5
+        ],
+        "word": "STEAM",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        3,
+        0
+        ],
+        "word": "REGIME",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "MORAL",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "CROWD",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        2
+        ],
+        "word": "RANGE",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+    ],
+    [
+        {
+        "startPos": [
+        3,
+        0
+        ],
+        "word": "TISSUE",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        4
+        ],
+        "word": "TRUCK",
+        "orientation": "HORIZONTAL",
+        "ID": 2
         },
         {
         "startPos": [
         5,
         0
         ],
-        "word": "AGREE",
+        "word": "SHOCK",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "FAITH",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        2,
+        0
+        ],
+        "word": "PERSON",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        4
+        ],
+        "word": "WOULD",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        5,
+        0
+        ],
+        "word": "TIRED",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "UPSET",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "MENTAL",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        2
+        ],
+        "word": "SPEND",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        2,
+        1
+        ],
+        "word": "APPLE",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        4
+        ],
+        "word": "CLEAN",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "PACKED",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        4
+        ],
+        "word": "PLATE",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "BUILD",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "BROAD",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        }
+        ],
+        [
+        {
+        "startPos": [
+        3,
+        0
+        ],
+        "word": "BRIDGE",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "NORTH",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        5,
+        0
+        ],
+        "word": "CHART",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        5
+        ],
+        "word": "QUIET",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+    ],
+    [
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "EMERGE",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        3
+        ],
+        "word": "DROVE",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        4,
+        1
+        ],
+        "word": "CHEAP",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "MATCH",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "DRIVER",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        2
+        ],
+        "word": "PILOT",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        3,
+        0
+        ],
+        "word": "BLOOD",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        4
+        ],
+        "word": "READY",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        3,
+        0
+        ],
+        "word": "FRIEND",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        3
+        ],
+        "word": "MONEY",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "TIMES",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "THIRD",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        5
+        ],
+        "word": "MAINLY",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        3,
+        1
+        ],
+        "word": "SHOWN",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        3
+        ],
+        "word": "ADOPT",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "DRAMA",
         "orientation": "VERTICAL",
         "ID": 4
         }
@@ -1753,34 +2095,148 @@ export const crosswordList = [
         0,
         2
         ],
-        "word": "PLENTY",
+        "word": "FAILED",
         "orientation": "HORIZONTAL",
         "ID": 1
         },
         {
         "startPos": [
-        4,
-        0
+        3,
+        1
         ],
-        "word": "OBTAIN",
+        "word": "ELITE",
         "orientation": "VERTICAL",
         "ID": 2
         },
         {
         "startPos": [
         1,
-        0
+        5
         ],
-        "word": "STOOD",
+        "word": "BREAD",
         "orientation": "HORIZONTAL",
         "ID": 3
         },
         {
         "startPos": [
-        2,
+        0,
         0
         ],
-        "word": "THESE",
+        "word": "REFER",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+    ],
+    [
+        {
+        "startPos": [
+        3,
+        0
+        ],
+        "word": "BUDGET",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        4
+        ],
+        "word": "BREAK",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        5,
+        0
+        ],
+        "word": "STUCK",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "FAULT",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "FINGER",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        2
+        ],
+        "word": "WOMEN",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "FOCUS",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        5
+        ],
+        "word": "STORM",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        2
+        ],
+        "word": "EITHER",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "LIMIT",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        4
+        ],
+        "word": "EIGHT",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "THEFT",
         "orientation": "VERTICAL",
         "ID": 4
         }
@@ -1791,101 +2247,206 @@ export const crosswordList = [
         0,
         0
         ],
-        "word": "ELEVEN",
+        "word": "MEMORY",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        2
+        ],
+        "word": "MARCH",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        4,
+        1
+        ],
+        "word": "WHERE",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        4
+        ],
+        "word": "ROGER",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        0
+        ],
+        "word": "EXPAND",
         "orientation": "HORIZONTAL",
         "ID": 1
         },
         {
         "startPos": [
-        2,
+        3,
         0
         ],
-        "word": "EXPECT",
+        "word": "ASIDE",
         "orientation": "VERTICAL",
         "ID": 2
         },
+        {
+        "startPos": [
+        1,
+        2
+        ],
+        "word": "EXIST",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        5,
+        0
+        ],
+        "word": "DATED",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "COLUMN",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        2
+        ],
+        "word": "NOVEL",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "FORUM",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        5
+        ],
+        "word": "MEANT",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+    ],
+    [
         {
         "startPos": [
         0,
         3
         ],
-        "word": "CLEAN",
+        "word": "BECOME",
         "orientation": "HORIZONTAL",
-        "ID": 3
-        },
-        {
-        "startPos": [
-        0,
-        0
-        ],
-        "word": "EXACT",
-        "orientation": "VERTICAL",
-        "ID": 1
-        }
-        ],
-        [
-        {
-        "startPos": [
-        1,
-        0
-        ],
-        "word": "FOLLOW",
-        "orientation": "VERTICAL",
         "ID": 1
         },
         {
         "startPos": [
-        0,
-        4
+        2,
+        0
         ],
-        "word": "BORDER",
-        "orientation": "HORIZONTAL",
+        "word": "LUNCH",
+        "orientation": "VERTICAL",
         "ID": 2
         },
         {
         "startPos": [
-        4,
-        0
+        1,
+        1
         ],
-        "word": "DANCE",
-        "orientation": "VERTICAL",
+        "word": "BUYER",
+        "orientation": "HORIZONTAL",
         "ID": 3
         },
         {
         "startPos": [
-        1,
-        4
+        5,
+        0
         ],
-        "word": "ORDER",
-        "orientation": "HORIZONTAL",
+        "word": "TRIES",
+        "orientation": "VERTICAL",
         "ID": 4
         }
         ],
         [
         {
         "startPos": [
-        0,
-        5
+        5,
+        0
         ],
-        "word": "REGION",
-        "orientation": "HORIZONTAL",
+        "word": "FOUGHT",
+        "orientation": "VERTICAL",
         "ID": 1
         },
         {
         "startPos": [
-        0,
-        0
+        1,
+        4
         ],
-        "word": "CAREER",
-        "orientation": "VERTICAL",
+        "word": "EARTH",
+        "orientation": "HORIZONTAL",
         "ID": 2
         },
         {
         "startPos": [
-        0,
+        1,
         0
         ],
-        "word": "CHART",
+        "word": "SUITE",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "SHELF",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        }
+        ],
+        [
+        {
+        "startPos": [
+        2,
+        0
+        ],
+        "word": "REPORT",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "BELOW",
         "orientation": "HORIZONTAL",
         "ID": 2
         },
@@ -1894,27 +2455,112 @@ export const crosswordList = [
         5,
         1
         ],
-        "word": "WOMAN",
+        "word": "WHILE",
         "orientation": "VERTICAL",
         "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        5
+        ],
+        "word": "STYLE",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "THEORY",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        3
+        ],
+        "word": "LOOSE",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        4,
+        1
+        ],
+        "word": "FIELD",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "CHIEF",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+    ],
+    [
+        {
+        "startPos": [
+        2,
+        0
+        ],
+        "word": "TISSUE",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "FINAL",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        5,
+        0
+        ],
+        "word": "GLOBE",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        5
+        ],
+        "word": "PRESS",
+        "orientation": "HORIZONTAL",
+        "ID": 4
         }
         ],
         [
         {
         "startPos": [
         0,
-        2
+        1
         ],
-        "word": "SURVEY",
+        "word": "DEMAND",
         "orientation": "HORIZONTAL",
         "ID": 1
         },
         {
         "startPos": [
-        2,
+        1,
         0
         ],
-        "word": "CARBON",
+        "word": "BEGAN",
         "orientation": "VERTICAL",
         "ID": 2
         },
@@ -1923,17 +2569,359 @@ export const crosswordList = [
         1,
         4
         ],
-        "word": "POINT",
+        "word": "NURSE",
         "orientation": "HORIZONTAL",
         "ID": 3
+        },
+        {
+        "startPos": [
+        3,
+        1
+        ],
+        "word": "ALERT",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        2
+        ],
+        "word": "PICKED",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        5,
+        0
+        ],
+        "word": "UNDER",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        5
+        ],
+        "word": "TIMES",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "SPORT",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        3
+        ],
+        "word": "FRIEND",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        0
+        ],
+        "word": "CRAFT",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        5
+        ],
+        "word": "FAULT",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        5,
+        1
+        ],
+        "word": "AUDIT",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        4
+        ],
+        "word": "ORIGIN",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "ACTOR",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "SUGAR",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        5,
+        0
+        ],
+        "word": "ROMAN",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+    ],
+    [
+        {
+        "startPos": [
+        5,
+        0
+        ],
+        "word": "GARDEN",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        1,
+        2
+        ],
+        "word": "MAJOR",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "EMPTY",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        4
+        ],
+        "word": "THEME",
+        "orientation": "HORIZONTAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        0
+        ],
+        "word": "REDUCE",
+        "orientation": "HORIZONTAL",
+        "ID": 1
         },
         {
         "startPos": [
         4,
         0
         ],
-        "word": "GREEN",
+        "word": "CHART",
         "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        4
+        ],
+        "word": "RIGHT",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        2,
+        0
+        ],
+        "word": "DOING",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        4
+        ],
+        "word": "ORANGE",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        2,
+        1
+        ],
+        "word": "DREAM",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        1,
+        2
+        ],
+        "word": "PRIZE",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        5,
+        1
+        ],
+        "word": "NEVER",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        0
+        ],
+        "word": "FOSTER",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        3
+        ],
+        "word": "TASTE",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "EAGER",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        0,
+        0
+        ],
+        "word": "FRAME",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        }
+        ],
+        [
+        {
+        "startPos": [
+        0,
+        5
+        ],
+        "word": "MARKED",
+        "orientation": "HORIZONTAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        4,
+        1
+        ],
+        "word": "ABOVE",
+        "orientation": "VERTICAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "MEDIA",
+        "orientation": "HORIZONTAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        1
+        ],
+        "word": "EXTRA",
+        "orientation": "VERTICAL",
+        "ID": 4
+        }
+        ],
+        [
+        {
+        "startPos": [
+        4,
+        0
+        ],
+        "word": "FOURTH",
+        "orientation": "VERTICAL",
+        "ID": 1
+        },
+        {
+        "startPos": [
+        0,
+        3
+        ],
+        "word": "ANGER",
+        "orientation": "HORIZONTAL",
+        "ID": 2
+        },
+        {
+        "startPos": [
+        0,
+        1
+        ],
+        "word": "BLACK",
+        "orientation": "VERTICAL",
+        "ID": 3
+        },
+        {
+        "startPos": [
+        1,
+        0
+        ],
+        "word": "DRAFT",
+        "orientation": "HORIZONTAL",
         "ID": 4
         }
     ],

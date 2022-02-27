@@ -6,12 +6,13 @@ import express from 'express'
 
 export const app = express()
 
-const MAX_CROSSWORDS_GEN = 5;
+const MAX_CROSSWORDS_GEN = 7;
+const NUM_WORDS_PER_CROSSWORD = 4;
 
 app.get('/', (req, res) => {
     
     const now = moment().tz("Australia/Melbourne").format("YYYY-MM-DD")
-    const startDay = "2022-02-20";
+    const startDay = "2022-02-27";
     const daysSinceStart = moment.duration(moment(now,"YYYY-MM-DD").diff(moment(startDay,"YYYY-MM-DD"))).asDays()
     res.set('Access-Control-Allow-Origin', '*');
     res.send({
@@ -33,14 +34,17 @@ app.get('/generate', (req, res) => {
     let crosswords = []
     for (let i = 0; i < noCrosswords; i++) {
         const newCrossword = generateCrossword(currentWordList)
-        crosswords.push(newCrossword)
-        // Remove all used words from current word list
-        newCrossword.forEach(e => {
-            const wordIndex = currentWordList[e.word.length].indexOf(e.word.toLowerCase())
-            if (wordIndex != -1) {
-                currentWordList[e.word.length].splice(wordIndex, 1) // Remove word from current word list
-            }
-        })
+        // Ensure generated crossword contains 4 words
+        if (newCrossword.length===NUM_WORDS_PER_CROSSWORD && newCrossword.every(e => e.word!=="NO WORD FOUND")) {
+            crosswords.push(newCrossword)
+            // Remove all used words from current word list
+            newCrossword.forEach(e => {
+                const wordIndex = currentWordList[e.word.length].indexOf(e.word.toLowerCase())
+                if (wordIndex != -1) {
+                    currentWordList[e.word.length].splice(wordIndex, 1) // Remove word from current word list
+                }
+            })
+        }
     }
     res.send(crosswords)
 
